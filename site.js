@@ -12,3 +12,18 @@ nav.querySelectorAll("a").forEach((link) => {
     toggle.setAttribute("aria-expanded", "false");
   });
 });
+
+const copyButton = document.querySelector(".copy-mint");
+const mint = document.querySelector("#mint");
+
+copyButton.addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText(mint.textContent.trim());
+    copyButton.textContent = "Copied";
+  } catch {
+    copyButton.textContent = "Copy";
+  }
+  window.setTimeout(() => {
+    copyButton.textContent = "Copy";
+  }, 1600);
+});

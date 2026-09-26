@@ -43,7 +43,11 @@ body {
   opacity: 0.7;
 }
 
-.site-header,
+.site-header {
+  position: relative;
+  z-index: 5;
+}
+
 main,
 footer {
   position: relative;
@@ -284,6 +288,41 @@ h1 {
   font-size: 15px;
 }
 
+.mint-row dd {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.mint-row code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 13px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.copy-mint {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--cyan);
+  padding: 6px 10px;
+  font: 600 12px Sora, sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.copy-mint:hover,
+footer a:hover {
+  color: #8af3ff;
+}
+
+footer a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
 .chain-list {
   list-style: none;
   margin: 28px 0 0;
@@ -379,22 +418,48 @@ button:focus-visible {
     display: inline-flex;
   }
 
+  .site-header {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .brand {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .brand strong {
+    display: none;
+  }
+
+  .nav-toggle {
+    margin-left: 12px;
+    flex: 0 0 auto;
+  }
+
   .site-nav {
     display: none;
-    position: absolute;
-    top: 78px;
-    left: 16px;
-    right: 16px;
-    margin: 0;
-    padding: 12px;
+    position: static;
+    flex: 1 0 100%;
+    margin: 12px 0 0;
+    padding: 6px;
     flex-direction: column;
-    gap: 12px;
+    gap: 0;
     background: #070c18;
     border: 1px solid var(--line);
   }
 
+  .site-nav a {
+    padding: 12px 10px;
+  }
+
   .site-nav.open {
     display: flex;
+  }
+
+  h1 {
+    font-size: clamp(26px, 7.2vw, 48px);
+    letter-spacing: 0;
   }
 
   .token,
