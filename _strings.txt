@@ -1,0 +1,359 @@
+assets/WhitepaperPage-CkDZrUIT.js
+---
+assets/WhitepaperPage-COBafHFq.css
+---
+]${Y}`))return;const Q=document.createElement(
+---
+,()=>X(Error(`Unable to preload CSS for ${v}`)))})}))}function x(R){const C=new Event(
+---
+&&o!==null&&o.$$typeof===f}function nt(o){var O={
+---
+:switch(o.$$typeof){case f:case S:I=!0;break;case z:return I=o._init,ql(I(o._payload),O,U,q,Z)}}if(I)return Z=Z(o),I=q===
+---
+)+I)),O.push(Z)),1;I=0;var $l=q===
+---
+;if(ll(o))for(var Nl=0;Nl<o.length;Nl++)q=o[Nl],el=$l+rl(q,Nl),I+=ql(q,O,U,el,Z);else if(Nl=Q(o),typeof Nl==
+---
+)for(o=Nl.call(o),Nl=0;!(q=o.next()).done;)q=q.value,el=$l+rl(q,Nl++),I+=ql(q,O,U,el,Z);else if(el===
+---
+)return l.$$typeof===rt?null:l.displayName||l.name||null;if(typeof l==
+---
+)switch(l.$$typeof){case G:return
+---
+__reactFiber$
+---
+__reactProps$
+---
+__reactContainer$
+---
+__reactEvents$
+---
+__reactListeners$
+---
+__reactHandles$
+---
+__reactResources$
+---
+__reactMarker$
+---
++St(e),t=null,n=0;n<l.length;n++){if(l[n].value===e){l[n].selected=!0,a&&(l[n].defaultSelected=!0);return}t!==null||l[n].disabled||(t=l[n])}t!==null&&(t.selected=!0)}}function $s(l,t,e){if(t!=null&&(t=
+---
+&&l!==null)switch(l.$$typeof){case P:case w:c=10;break l;case Sl:c=9;break l;case ll:c=11;break l;case jl:c=14;break l;case yl:c=16,a=null;break l}c=29,e=Error(d(130,l===null?
+---
+&&p!==null){switch(p.$$typeof){case Q:return p.key===B?r(y,h,p,N):null;case G:return p.key===B?g(y,h,p,N):null;case yl:return B=p._init,p=B(p._payload),b(y,h,p,N)}if(ql(p)||rl(p))return B!==null?null:A(y,h,p,N,null);if(typeof p.then==
+---
+)return b(y,h,_u(p),N);if(p.$$typeof===w)return b(y,h,yu(y,p),N);zu(y,p)}return null}function j(y,h,p,N,B){if(typeof N==
+---
+&&p!==null){switch(p.$$typeof){case Q:l:{for(var B=p.key;h!==null;){if(h.key===B){if(B=p.type,B===X){if(h.tag===7){e(y,h.sibling),N=n(h,p.props.children),N.return=y,y=N;break l}}else if(h.elementType===B||typeof B==
+---
+),bl=j==null?b:Ja(j),p=$==null?b:Ja($),b=new V(N,h+
+---
+:if(n!=null)throw Error(d(91));break;default:n!==u&&xl(l,t,c,n,a,u)}$s(l,b,j);return;case
+---
+:for(var $ in e)if(b=e[$],e.hasOwnProperty($)&&b!=null&&!a.hasOwnProperty($))switch($){case
+---
+:l.selected=!1;break;default:xl(l,t,$,null,a,b)}for(r in a)if(b=a[r],j=e[r],a.hasOwnProperty(r)&&b!==j&&(b!=null||j!=null))switch(r){case
+---
+?l.getRootNode():l.nodeType===9?l:l.ownerDocument}var ne=D.d;D.d={f:Xm,r:Zm,D:Vm,C:Km,L:Jm,m:km,X:$m,S:Wm,M:Fm};function Xm(){var l=ne.f(),t=Gu();return l||t}function Zm(l){var t=Pe(l);t!==null&&t.tag===5&&t.type===
+---
+,function(){s.loading|=2}),s.loading|=4,$u(c,t,a)}c={type:
+---
+,instance:c,count:1,state:s},n.set(u,c)}}}function $m(l,t){ne.X(l,t);var e=Ra;if(e&&l){var a=Ie(e).hoistableScripts,n=Ua(l),u=a.get(n);u||(u=e.querySelector(Un(n)),u||(l=z({src:l,async:!0},t),(t=zt.get(n))&&ys(l,t),u=e.createElement(
+---
+,n),$u(a,e.precedence,l),t.instance=a;case
+---
+,a),t.state.loading|=4,$u(u,e.precedence,l),t.instance=u;case
+---
+&&(t.state.loading&4)===0&&(a=t.instance,t.state.loading|=4,$u(a,e.precedence,l));return t.instance}function $u(l,t,e){for(var a=e.querySelectorAll('link[rel=
+---
+Dexscreener pool
+---
+Pool reserves, liquidity, price and 24h activity
+---
+https://dexscreener.com/robinhood/0xaff8e2d7015c76fa6d9b2bedb72da7d6b305fd7b2140df3fca5c3c57e877ecfa
+---
+Uniswap v4 guide
+---
+How the shared PoolManager and concentrated liquidity work
+---
+https://docs.uniswap.org/contracts/v4/overview
+---
+swappy-desc
+---
+Largest SWAPPY
+---
+swappy-asc
+---
+Smallest SWAPPY
+---
+}${new Intl.NumberFormat(
+---
+?Oe(f.swappyRaw)>=Yd(S.sellSwappy):!0},_y=f=>{var M;const S=new Map,T=[];for(const x of f){const R=(M=Kn(x))==null?void 0:M.toLowerCase();if(!R||x.type!==
+---
+){T.push(x);continue}const C=`${R}:${x.type}:${x.quoteSymbol??
+---
+}:${x.quoteDecimals??18}`,E=S.get(C)??{id:`group:${C}`,kind:
+---
+,{value:S.pool,onChange:x=>T({...S,pool:x.target.value}),children:f.pools.map(x=>i.jsxs(
+---
+,{value:x.pool_id,children:[x.pool_id===f.mainPool?
+---
+,Ot(x.pool_id)]},x.pool_id))})]}),i.jsx(
+---
+On-chain · finalized to block 
+---
+});const X=G.logarithmic?Ny(G.low,G.high):Ay(G.low,G.high),hl=Array.from({length:6},(w,ll)=>f.from+(f.to-f.from)*ll/5),F=new Map(Q.map(w=>[w.time,w])),P=S.filter(w=>(!w.poolId||w.poolId===f.pool.pool_id)&&M[w.type===
+---
+,x:112,y:18,children:[f.pool.quoteSymbol,
+---
+,{className:`fx-candle ${jl?
+---
+,{className:`fx-marker ${w.type} ${(T==null?void 0:T.id)===w.id?
+---
+,w.swappyRaw?`${bt(w.swappyRaw)} SWAPPY · `:
+---
+,x:112,y:374,children:[f.pool.quoteSymbol,
+---
+swappy-desc
+---
+swappy-asc
+---
+swappy-asc
+---
+:G?`${jl.length.toLocaleString()} groups`:`${f.length.toLocaleString()} matches`})]}),R?i.jsx(
+---
+Minimum SWAPPY per sell
+---
+,value:hl.sellSwappy,onChange:m=>F(D=>({...D,sellSwappy:m.target.value})),placeholder:
+---
+,{className:`fx-table-head ${G?
+---
+,{children:[bt(m.swappyRaw),i.jsx(
+---
+,onClick:()=>M(D),title:`Show only transactions involving ${D}`,children:Ot(D)}),m.singleTransaction?i.jsx(
+---
+,m.poolCount>1?` · ${m.poolCount} pools`:
+---
+,{className:`fx-table-row ${(T==null?void 0:T.id)===m.id?
+---
+,{children:bt(m.swappyRaw)}),i.jsxs(
+---
+,onClick:H=>{H.stopPropagation(),M(D)},title:`Show only transactions involving ${D}`,children:Ot(D)}),i.jsx(
+---
+,yl.length>Ya?` · ${Ya.toLocaleString()} result cap from ${yl.length.toLocaleString()} matches`:
+---
+)),z.events+=1,z.swappyRaw+=Oe(v.swappyRaw),v.quoteRaw!=null){const Y=`${v.quoteSymbol??
+---
+,bt(E.swappyRaw),
+---
+})]})]})}function Uy({selected:f,wallet:S,loading:T,pool:d,candleEventCount:M,candleLoading:x,filterWallet:R,evidenceAddress:C,analysis:E,walletEvents:v}){var hl,F;if(!f)return i.jsxs(
+---
+,{children:bt(f.swappyVolumeRaw)}),i.jsxs(
+---
+,{children:bt(f.swappyRaw)}),Q&&i.jsxs(i.Fragment,{children:[i.jsxs(
+---
+,{children:Ot(f.poolId)})]}),f.from&&i.jsxs(i.Fragment,{children:[i.jsx(
+---
+,{children:Zn(E.currentSwappyEth)})]}),i.jsx(
+---
+,{children:bt((E==null?void 0:E.currentSwappyRaw)??S.swappyBalanceRaw)}),i.jsx(
+---
+,{children:(F=S.identity)!=null&&F.is_contract?
+---
+,E.convertedTrades?`${E.convertedTrades} non-ETH trades use the prior main-pool ETH price. `:
+---
+?`${bt(P.balance_raw,P.decimals??18,4)} held`:`${P.transfers} transfers`})]},P.token_address)),!S.tokenHistory.some(P=>P.token_address!==Cd)&&i.jsx(
+---
+,interval:3600,pool:
+---
+),[nt,Yl]=J.useState(!1),[rl,rt]=J.useState({swaps:!0,transfers:!1,liquidity:!1}),[et,ql]=J.useState({buyEth:
+---
+,sellSwappy:
+---
+||!M)return;const ul=`${T.pool}:${k.time}:${M.interval}:${Sl??
+---
+);try{const Tl=new URLSearchParams({pool:k.pool,from:new Date(`${k.from}Z`).toISOString(),to:new Date(`${k.to}Z`).toISOString(),interval:String(k.interval)});ul&&Tl.set(
+---
+);try{const Gl=await fetch(`${Xn}/address-summary?address=${encodeURIComponent(ul)}`),Tl=await Gl.json();if(!Gl.ok)throw new Error(Tl.error);if(!Tl.first||!Tl.last)throw new Error(
+---
+,M.pool.quoteSymbol]}),i.jsxs(
+---
+,M.pool.quoteSymbol]})]}),i.jsx(
+---
+,{className:`fx-wallet-scope ${ll?
+---
+,{children:sl?`${sl.buys.toLocaleString()} buys · ${sl.sells.toLocaleString()} sells · ${sl.pools.length} pools`:`${H.length.toLocaleString()} matching events in this range`}),i.jsx(
+---
+,M.visibleSwapEvents.toLocaleString(),
+---
+swappy-theme
+---
+https://dexscreener.com/robinhood/0xaff8e2d7015c76fa6d9b2bedb72da7d6b305fd7b2140df3fca5c3c57e877ecfa
+---
+https://t.me/swappyportal
+---
+https://x.com/swappyonx
+---
+./WhitepaperPage-CkDZrUIT.js
+---
+,matches:f=>f.origin===window.location.origin&&f.pathname.replace(/\/+$/,
+---
+,matches:f=>f.origin===window.location.origin&&f.pathname.replace(/\/+$/,
+---
+whitepaper_click
+---
+/whitepaper
+---
+A pump-and-dump “rug meme.”
+---
+,{className:`official-links ${f?
+---
+,{id:`official-links-title-${f?
+---
+,{className:`coin swappy-coin ${S?
+---
+SWAPPY token
+---
+,{className:`coin eth-coin ${S?
+---
+,className:`brand ${f?
+---
+SWAPPY trademark home
+---
+/brand/swappy-mascot.png
+---
+ SWAPPY LLC. All rights reserved.
+---
+,{className:`home-footer ${f}`.trim(),children:[i.jsxs(
+---
+https://docs.robinhood.com/chain/
+---
+Built on Robinhood Chain — open official network documentation
+---
+/brand/robinhood-chain-logo-white.svg
+---
+Robinhood Chain
+---
+Launched on Uniswap on the Robinhood chain
+---
+/brand/robinhood-mark.png
+---
+/brand/uniswap-mark.png
+---
+whitepaper
+---
+swappy-girls-title
+---
+swappy-girls-title
+---
+ Girls around the globe to wear the shirt, create original content, meet real people, and make Swappy the gateway from crypto to the real world.
+---
+,{src:z,alt:`AI campaign preview of a Swappy content creator interviewing someone in ${v}`,loading:Y<4?
+---
+:`Show campaign image ${z+1}`,
+---
+ Girls are coming to:
+---
+Where Swappy Girls will appear
+---
+These concept images are AI-generated. No person shown represents an already-hired Swappy
+---
+]})]})]})}function $y(){return i.jsxs(
+---
+Swappy, the female penguin meme in a unicorn cape
+---
+/brand/swappy-mascot.png
+---
+Swappy, the female penguin meme in a unicorn cape
+---
+What Swappy
+---
+,{children:tt.format(f.pool.swappy)}),i.jsx(
+---
+,{children:f.pool.eth.toFixed(2)}),i.jsx(
+---
+/brand/swappy-mascot.png
+---
+Swappy, the female penguin meme in a unicorn cape
+---
+,{}),Os.format(f.pool.usd)]}),i.jsxs(
+---
+Robinhood Chain · Uniswap v4
+---
+,{children:Os.format(f.pool.volume24h)}),
+---
+,{children:ue.format(f.pool.buys24h+f.pool.sells24h)}),
+---
+You add ETH to the pool. The pool sends SWAPPY back to you.
+---
+You add SWAPPY to the pool. The pool sends ETH back to you.
+---
+Choose a swap direction
+---
+ v4 liquidity can be placed only inside chosen price ranges. The totals show what the market tracker reports in the pool; not every token must be active at every possible price.
+---
+Outside the pool.
+---
+:`${(M+x)*3.6}deg`},role:
+---
+View pool 
+---
+ It includes tokens in wallets, contracts, exchanges, original allocations and transfers.
+---
+Uniswap v4 engine
+---
+SWAPPY sit
+---
+SWAPPY holder balance groups
+---
+holder-bubble pool-bubble
+---
+,{children:[(f.v4Engine.swappy/f.supply*100).toFixed(1),
+---
+,{children:[tt.format(f.v4Engine.swappy),
+---
+:`${x.holderPct.toFixed(1)}%`}),i.jsx(
+---
+. Balances are rebuilt from token transfers and must reconcile to the total supply. Circle size follows the holder-address share; the pool engine is shown separately because it is infrastructure, not a person.
+---
+:`${f.concentration.top10}%`,
+---
+:`${f.concentration.top100-f.concentration.top10}%`,
+---
+:`${f.concentration.everyoneElse}%`},
+---
+:`Top 100 addresses hold ${f.concentration.top100.toFixed(2)} percent; all others hold ${f.concentration.everyoneElse.toFixed(2)} percent`,children:[i.jsx(
+---
+,{href:X.fullAddress?`https://rh-scan.com/address/${X.fullAddress}`:
+---
+:`${X.share.toFixed(2)}%`}),i.jsx(La,{})]},X.fullAddress??X.address))]}),i.jsx(
+---
+,tt.format(f.v4Engine.swappy),
+---
+Independent explainer; not affiliated with Robinhood or Uniswap.
+---
+Loading verified on-chain data…
+---
+,M=window.location.pathname.replace(/\/+$/,
+---
+/whitepaper
+---
+SWAPPY Forensics — On-chain evidence
+---
+SWAPPY™ Pools — Live liquidity map
+---
+SWAPPY™ Market Cap Calculator
+---
+SWAPPY™ Whitepaper — The real world growth loop
+---
+SWAPPY™ — Crypto belongs in the real world
+---
+Independent calculator; not affiliated with Robinhood or Uniswap.
+---
+whitepaper
+---
+})}),children:i.jsx(Cy,{contractAddress:si,xLink:We.x})}),i.jsxs(Ds,{className:
+---
+Whitepaper · Not financial advice.
+---
+,...T}),i.jsx($y,{})]})]})}Ty.createRoot(document.getElementById(
